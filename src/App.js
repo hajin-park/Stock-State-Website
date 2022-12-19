@@ -1,8 +1,8 @@
-import Filler from './components/Filler'
+import ProductList from './components/ProductList'
 import './App.css';
 
 export default function App() {
   return (
-    <Filler />
+    <ProductList store="Costco"/>
   );
 }
